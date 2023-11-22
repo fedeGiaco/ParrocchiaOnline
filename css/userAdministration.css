@@ -1,0 +1,125 @@
+body{
+    font-family: Helvetica;
+    text-align: center;
+    background-color: rgba(217, 208, 188, 0.8);
+}
+#top{
+    height: 130px;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+#imgHome{
+    margin-left: 105px;
+    margin-top: 40px;
+    float: left;
+    height: 50px;
+}
+header{
+    text-align: center;
+    background-color: #f6eedd;
+    width: 200px;
+    float: left;
+    margin-left: 40px;
+}
+#imgOut{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 50px;
+}
+
+#imgUser{
+    text-align: center;
+    height: 120px;
+    margin-left: auto;
+}
+main{
+    margin: auto;
+    text-align: center;
+}
+#x{
+    background-color: #f6eedd;
+}
+.tipoUtenti{
+    font-size: 20px;
+}
+
+
+#title{
+    text-align: center;
+    background-color: #f6eedd;
+    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    margin: 20px auto;
+}
+
+table{
+    margin-top: 0px;
+    border: solid black;
+    text-align: center;
+}
+
+#spazioInApprovazione{
+    overflow: scroll;
+}
+#spazioInApprovazioneVuoto{
+    height: 40px;
+    overflow: visible;
+    text-align: center;
+    margin: auto;
+}
+#daApprovare{
+    margin: auto;
+}
+
+
+
+#titleAll{
+    text-align: center;
+    background-color: #f6eedd;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+}
+#spazioTutti{
+    text-align: center;
+    overflow: scroll;
+}
+#tutti{
+    margin: auto;
+}
+
+
+
+
+.campi{
+    background-color: lemonchiffon;
+    height: 50px;
+}
+tr{
+    border: solid black;
+    background-color: #f6eedd;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+td{
+    padding: 8px;
+    text-align: center;
+}
+.alterno{
+    background-color: rgba(252, 239, 208, 0.8);
+}
+input[type="image"]{
+    height: 50px;
+}
+
+.btnApprova{
+    height: 30px;
+    font-size: 18px;
+}

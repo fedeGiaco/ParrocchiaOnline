@@ -1,0 +1,219 @@
+body{
+    font-family: Helvetica;
+    background-image: url("./../css/Immagini/Sfondi/reg.jpeg");
+    background-size: 1920px 1440px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.sezioneSelezionata{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #f6eedd;
+}
+.sezioneSelezionataElem{
+    float: left;
+}
+#sezEsploraTitolo{
+    margin-left: 50px;
+    margin-top: 26px;
+}
+#sezEsploraImg{
+    height: 80px;
+}
+
+#GiocoBadia{
+    overflow-x: hidden;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+#scorriPuntatore{
+    position: absolute;
+    width: 1194px;
+    height: 560px;
+    margin-top: 125px;
+}
+#puntatore{
+    height: 21px;
+    position: absolute;
+    left: 135px;
+    top: 380px;
+}
+
+#puntiInteresse{
+    position: absolute;
+    margin-top: -28px;
+}
+
+
+#mapBadia{
+    width: 1193.5px;
+}
+
+
+
+#Etitle{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 100px;
+}
+#content{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin-top: -210px;
+    margin-left: 330px;
+}
+#pre-gioco1{
+    position: absolute;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    height: 120px;
+    width: 750px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+#pre-gioco2{
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 750px;
+    margin-top: 5px;
+    height: 120px;
+    width: 443px;
+    background-color: rgba(0,43,153,0.7);
+    color: white;
+}
+#titleGame{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#tImg{
+    font-size: 17px;
+    width: 50px;
+    background-color: rgba(0,43,153,0.0);
+    color: white;
+}
+#iB-Verde{
+    width:40px;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 200px;
+}
+#iB-StanzaNuova{
+    width:40px;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 185px;
+}
+#iB-StanzaVecchia{
+    width:40px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#iB-Giochini{
+    width:40px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 350px;
+}
+#iB-Scale{
+    width:40px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 400px;
+}
+#iB-Chiesa{
+    width:40px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 490px;
+}
+#iB-CampinoStrada{
+    width:40px;
+    position: absolute;
+    margin-top: 640px;
+    margin-left: 1040px;
+}
+#iB-CampinoFondo{
+    width:40px;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 1095px;
+}
+
+.info{
+    width: 650px;
+    height: 530px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: solid thick white;
+    padding: 10px;
+}
+.infoVer{
+    width: 330px;
+    height: 530px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: solid thick white;
+    padding: 10px;
+}
+
+.imgDiv{
+    margin-top: 20px;
+}
+
+
+#infoBox-Verde{
+    position: relative;
+    margin-left: 270px;
+    margin-top: -560px;
+}
+#infoBox-StanzaNuova{
+    position: relative;
+    margin-left: 270px;
+    margin-top: -570px;
+}
+#infoBox-StanzaVecchia{
+    position: relative;
+    margin-left: 460px;
+    margin-top: -570px;
+}
+#infoBox-Giochini{
+    position: relative;
+    margin-left: 440px;
+    margin-top: -570px;
+}
+#infoBox-Scale{
+    position: relative;
+    margin-left: 450px;
+    margin-top: -570px;
+}
+#infoBox-Chiesa{
+    position: relative;
+    margin-left: 540px;
+    margin-top: -570px;
+}
+#infoBox-CampinoStrada{
+    position: relative;
+    margin-left: 330px;
+    margin-top: -570px;
+}
+#infoBox-CampinoFondo{
+    position: relative;
+    margin-left: 370px;
+    margin-top: -570px;
+}

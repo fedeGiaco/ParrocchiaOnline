@@ -1,0 +1,110 @@
+body{
+    background-image: url("none");
+    background-color: rgba(217, 208, 188, 0.8);
+}
+#container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(217, 208, 188, 0.8);
+    z-index: -1;
+}
+.sezioneSelezionata{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+    background-color: #f6eedd;
+}
+.sezioneSelezionataElem{
+    float: left;
+}
+#sezEsploraTitolo{
+    margin-left: 30px;
+    margin-top: 29px;
+}
+#sezEsploraImg{
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#oggi{
+    width: 550px;
+    height: 60px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #f6eedd;
+}
+#oggiSanto{
+    font-size: 19px;
+    line-height: 60px;
+}
+#entrambeLetture{
+    width: 1100px;
+    text-align: center;
+    margin-left: -250px;
+}
+.modFont{
+    width: 100px;
+    font-size: 23px;
+}
+#let{
+	position: relative;
+	float: left;
+}
+#van{
+	position: relative;
+	float: left;
+}
+#modLettura{
+    float: left;
+    text-align: center;
+    width: 300px;
+    background-color: #f6eedd;
+    line-height: 30px;
+    margin-top: 0px;
+}
+#Lettura{
+    float: none;
+    width: 750px;
+    overflow: scroll;
+    background-color: #f6eedd;
+    border: solid thin black;
+}
+#testoLettura{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+
+#modVangelo{
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    width: 300px;
+    background-color: #f6eedd;
+    line-height: 30px;
+}
+#Vangelo{
+    margin-top: 20px;
+    float: none;
+    width: 750px;
+    overflow: scroll;
+    background-color: #f6eedd;
+    border: solid thin black;
+}
+#testoVangelo{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}

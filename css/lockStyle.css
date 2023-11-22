@@ -1,0 +1,50 @@
+body{
+    font-family: Helvetica;
+    background-image: url("./../css/Immagini/Sfondi/lock.jpeg");
+    background-size: 1920px 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#TitoloLock{
+    width: 1200px;
+    height: 80px;
+    margin: 20px auto;
+    background-color: #f6eedd;
+}
+#Logo{
+    height: 60px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#Parrocchia{
+    font-size: 26px;
+    float: left;
+    margin-top: 27px;
+}
+#Data{
+    font-size: 23px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+#blocco{
+    text-align: center;
+    width: 260px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 250px;
+}
+button{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#back{
+    height: 150px;
+    margin-top: 50px;
+}

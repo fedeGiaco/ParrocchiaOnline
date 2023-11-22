@@ -1,0 +1,175 @@
+#prefazione_titolo{
+    text-align: center;
+    font-size: 27px;
+}
+body{
+    font-family: Helvetica;
+    background-image: url("./../css/Immafgini/Sfondi/indexBack3.jpeg");
+    background-size: 1700px 1450px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgba(217, 208, 188, 0.8);
+}
+#container{
+    height: 3525px;
+    background-color: rgba(217, 208, 188, 0.8);
+}
+#prefazione_descrizione{
+    text-align: center;
+    font-size: 22px;
+}
+.sezioneSelezionata{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #f6eedd;
+}
+.sezioneSelezionataElem{
+    float: left;
+}
+#sezEsploraTitolo{
+    margin-left: 30px;
+    margin-top: 26px;
+}
+#sezEsploraImg{
+    height: 80px;
+    margin-top: -5px;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid thick;
+}
+#stanzaVecchia{
+    width:150px;
+    height:170px;
+}
+#stanzaNuova{
+    width:150px;
+    height:150px;
+}
+
+tbody{
+    border: solid medium;
+    font-size: 18px;
+}
+td{
+    border: solid thin;
+    text-align: center;
+    padding: 5px;
+    height: 60px;
+    font-size: 18px;
+}
+.tdSmall{
+    font-size: 23px;
+    width: 140px;
+}
+.tdMedium{
+    font-size: 23px;
+    width: 200px;
+}
+.tdLarge{
+    font-size: 23px;
+    width: 250px;
+}
+.tdRight{
+    text-align: right;
+}
+.Stanza{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.Campo1{
+    font-size: 20px;
+    width: 200px;
+	border: solid #f6eedd;
+}
+.Campo2{
+    font-size: 20px;
+    width: 200px;
+    background-color: #f6eedd;
+	border: solid #f6eedd;
+}
+p{
+    font-size: 18px;
+}
+#gestioneCalendario{
+    text-align: center;
+}
+#titleCal{
+    margin-bottom: 10px;
+}
+.cal{
+    height: 30px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#settimanaScelta{
+    text-align: center;
+    padding: 5px;
+    background-color:  #f6eedd;
+    width: 300px;
+    margin: 10px auto 0px;
+}
+.ora{
+    background-color: #f6eedd;
+	border: solid #f6eedd;
+}
+.oraCol{
+	border: solid #f6eedd;
+}
+#Prenotazioni{
+    width: 575px;
+    float: left;
+    text-align: center;
+    background-color:  #f6eedd;
+    padding: 10px;
+    margin-top: 2px;
+}
+#prenotaP{
+    margin-top: -15px;
+}
+#pre1{
+    float: left;
+    text-align: center;
+    margin-top: -20px;
+}
+#pre2{
+    margin-left: 30px;
+    float: left;
+    margin-top: -20px;
+}
+#attivita{
+    margin-top: -10px;
+    padding: 5px;
+    resize: none;
+    font-size:14px;
+    font-family: Helvetica;
+}
+.oraP{
+    width: 70px;
+    font-size: 14px;
+}
+#Prenota{
+    margin-top: 10px;
+    font-size: 14px;
+	height:30px;
+	overflow:hidden;
+}
+#gap-image2{
+    float: left;
+    height:220px;
+    margin-top: 40px;
+	margin-left: 0px;
+    border: solid thin black;
+}
+#gap-image{
+    float:left;
+    height:230px;
+    margin-left: 0px;
+    margin-top: 40px;
+    border: solid thin black;
+}

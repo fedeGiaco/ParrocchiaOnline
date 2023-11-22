@@ -1,0 +1,192 @@
+body{
+    font-family: Helvetica;
+    background-image: url("./../css/Immagini/Sfondi/gruppi.jpeg");
+    background-size: 1920px 1440px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#container{
+    position: static;
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(217, 208, 188, 0.8);
+    z-index: -1;
+}
+header{
+    margin-top: 20px;
+    background-color: #f6eedd;
+    padding: 10px;
+}
+#Logo{
+    height: 60px;
+    float: left;
+}
+#Gruppo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    text-align: center;
+}
+.imgXg{
+    margin: auto;
+    width: 100%;
+    border: thin solid black;
+}
+.imgAlert{
+    height: 70px;
+}
+aside{
+    background-color: #f6eedd;
+    margin-top: 25px;
+    padding: 5px;
+    width: 1190px;
+    height: 45px;
+    text-align: center;
+}
+#miniTitolo{
+    font-size: 21px;
+    margin-top: -8px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.linkGruppo:link{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-top: -7px;
+    margin-left: 20px;
+}
+.linkGruppo:visited{
+    color: black;
+}
+#attivita{
+    height: 55px;
+    margin-top: -22px;
+    float: left;
+}
+
+main{
+    width: 1190px;
+    height: 350px;
+    overflow: scroll;
+    padding: 5px;
+}
+#mainTitolo1{
+    float: left;
+    text-align: center;
+    background-color:  #f6eedd;
+    width: 310px;
+    height: 70px;
+    margin: 15px;
+    margin-left: 100px;
+    border: solid thin red;
+}
+#mainTitolo2{
+    float: left;
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 50px;
+    padding: 10px;
+    background-color:  #f6eedd;
+    border: solid thin red;
+}
+.pUpdate{
+    display: inline;
+}
+
+#updatePost{
+    font-size: 13px;
+    margin-left: 20px;
+}
+#updatePostDate{
+    font-size: 13px;
+    width:40px;
+}
+#cosaVedi{
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+#titolomainTitolo{
+    float: left;
+    margin-top: 20px;
+}
+#Es1mainTitolo{
+    float: left;
+    margin-top: 0px;
+}
+#Es2mainTitolo{
+    float: left;
+    margin-top: 0px;
+}
+.post{
+    background-image: url("./../css/Immagini/Sfondi/SfondoDiv2.png");
+    border: solid thin #f6eedd;
+    width: 560px;
+    height: 320px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+    overflow: auto;
+}
+.postTitle{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.postText{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.postImg{
+    margin-left: 10px;
+    height: 100px;
+}
+.postLink{
+    margin-left: 10px;
+}
+.postDettagli{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.cancella{
+    float: left;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -40px;
+}
+
+.postCommento{
+    margin-top: 0px;
+}
+.postTitleCommento{
+    width: 40px;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.postTextCommento{
+    margin-left: 15px;
+    width: 420px;
+    resize: none;
+    font-size:15px;
+    font-family: Helvetica;
+    padding: 5px;
+    background-color: rgba(217, 208, 188, 0.5);
+    overflow: scroll;
+}
+.postCommentGo{
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 40px;
+}
+.postTestiCommenti{
+    margin-left: 5px;
+}

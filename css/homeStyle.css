@@ -1,0 +1,372 @@
+body{
+    font-family: Helvetica;
+    background-image: url("./../css/Immagini/Sfondi/home1.jpeg");
+    background-size: 1920px 1540px;
+    background-repeat: no-repeat;
+}
+#container{
+    position: static;
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(217, 208, 188, 0.8);
+    z-index: -1;
+}
+header{
+    margin-top: 20px;
+    background-color: #f6eedd;
+    padding: 10px;
+}
+#Logo{
+    height: 60px;
+    float: left;
+}
+#Parrocchia{
+    font-size: 26px;
+    float: left;
+}
+#Data{
+    font-size: 23px;
+    float: right;
+    margin-top: 25px;
+}
+img.imgX{
+    display: block;
+    float: none;
+    margin: auto;
+    width: 100%;
+    border: thin solid black;
+}
+
+div#hormenu{
+width: 210px;
+float: left;
+margin: 0;
+padding: 0;
+background: #f6eedd;
+}
+
+div#hormenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+div#hormenu li{
+width:210px;
+float:left;
+margin: 0;
+padding: 0;
+color:black;
+}
+
+div#hormenu li:hover{
+background-color: lightcoral;
+color: black;
+text-decoration: none;
+}
+
+div#hormenu li ul{
+display: none
+}
+
+div#hormenu li:hover ul{
+display: block;
+position: absolute;
+z-index:1;
+width:210px;
+padding: 0;
+border:1px solid red;
+background: #f6eedd;
+}
+
+div#hormenu li li { border:1px solid red; width:210px; }
+
+#movePage{
+    margin-top: 10px;
+    height: 40px;
+    background-color: #f6eedd;
+    padding: 0px;
+}
+#home{
+    float: left;
+    border: thin solid black;
+    background-color: #f6eedd;
+}
+
+aside{
+    background-color: #f6eedd;
+    margin-top: 25px;
+    padding: 5px;
+    width: 1190px;
+    height: 55px;
+    text-align: center;
+    overflow: scroll;
+}
+#miniTitolo{
+    font-size: 21px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.linkGruppo:link{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    border: solid 1px red;
+    padding: 5px;
+}
+.linkGruppo:visited{
+    color: black;
+    border: solid 1px red;
+}
+.gruppiDatati{
+    font-size: 22px;
+    color: black;
+    float: left;
+    margin-top: -12.5px;
+    margin-left:  10px;
+    border: solid 3px rgba(217, 208, 188, 0.8);
+    padding: 5px;
+}
+#attivita{
+    height: 55px;
+    margin-top: -22px;
+    float: left;
+}
+
+main{
+    width: 1190px;
+    height: 350px;
+    overflow: scroll;
+    padding: 5px;
+}
+#mainTitolo1{
+    float: left;
+    text-align: center;
+    background-color:  #f6eedd;
+    width: 310px;
+    height: 70px;
+    margin: 15px;
+    margin-left: 10px;
+    border: solid thin red;
+}
+#mainTitolo2{
+    float: left;
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 10px;
+    background-color:  #f6eedd;
+    border: solid thin red;
+}
+#mainTitolo3{
+    float: right;
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    height: 50px;
+    padding: 10px;
+    background-color:  #f6eedd;
+    border: solid thin red;
+}
+.pUpdate{
+    display: inline;
+    text-align: center;
+}
+#search{
+    margin-top: 10px;
+    width: 280px;
+}
+
+#updatePost{
+    float: right;
+    font-size: 15px;
+}
+#updatePostDate{
+    font-size: 13px;
+    width:40px;
+}
+#cosaVedi{
+    font-size: 15px;
+    margin-top: -10px;
+    text-align: center;
+}
+#titolomainTitolo{
+    float: left;
+    margin-top: 20px;
+}
+#Es1mainTitolo{
+    height:70px;
+    float: left;
+    margin-top: 0px;
+}
+#Es2mainTitolo{
+    height:70px;
+    float: left;
+    margin-top: 0px;
+}
+#stop{
+    color: blue;
+    margin-top: 100px;
+    margin-left: 450px;
+    width: 290px;
+    background-color:  #f6eedd;
+    padding: 8px;
+    border: solid thin blue;
+}
+#stopTitolo{
+    font-size: 25px;
+    float: left;
+    margin-top: 16px;
+}
+#stopImg{
+    position: relative;
+    margin-left:12px;
+    height: 50px;
+}
+#risultatiRicerca{
+    margin-top: 0px;
+    width: 1190px;
+    height: 350px;
+    overflow: scroll;
+    padding: 5px;
+}
+#noPostFound{
+    color: black;
+    font-size: 80px;
+    text-align: center;
+}
+.post{
+    background-image: url("./../css/Immagini/Sfondi/SfondoDiv.png");
+    background-color: rgba(217, 208, 188, 0.8);
+    border: solid thin #f6eedd;
+    width: 370px;
+    height: 340px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.postS{
+    background-image: url("./../css/Immagini/Sfondi/SfondoDiv.png");
+    background-color: rgba(217, 208, 188, 0.8);
+    border: solid thin blue;
+    width: 370px;
+    height: 340px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.postTitle{
+    text-align: center;
+    float: left;
+    width: 360px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+.postText{
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.postImg{
+    margin-left: 10px;
+    height: 100px;
+}
+.postLink{
+    margin-left: 10px;
+}
+.postDettagli{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cancella{
+    float: left;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -32px;
+}
+
+.postCommento{
+    margin-top: 0px;
+}
+.postTitleCommento{
+    width: 40px;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.postTextCommento{
+    margin-left: 15px;
+    resize: none;
+    font-size:15px;
+    font-family: Helvetica;
+    padding: 5px;
+    background-color: rgba(217, 208, 188, 0.5);
+    overflow: scroll;
+}
+.postCommentGo{
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 40px;
+}
+.postTestiCommenti{
+    margin-left: 5px;
+}
+#noPost{
+	font-size: 27px;
+	color:red;
+	text-align:center;
+	background-color:white;
+	width:270px;
+	margin:auto;
+	padding:10px;
+}
+footer{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 1200px;
+    height: 240px;
+}
+#imgFooter{
+    float: left;
+    margin-top: 20px;
+}
+#logoMini{
+    height:200px;
+}
+#elem1Footer{
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+#infoFooter{
+    float: left;
+    height: 250px;
+    width: 520px;
+    text-align: center;
+    margin-top: 15px;
+}
+#mapFooter{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.messeFooter{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}

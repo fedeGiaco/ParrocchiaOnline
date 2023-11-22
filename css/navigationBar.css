@@ -1,0 +1,300 @@
+/* HOME */
+.menuX{
+    margin-top: 0px;
+    background-color: #f6eedd;
+    line-height: 20px;
+    float: left;
+    width: 17.431%;
+    text-align: center;
+    height: 51px;
+    border: thin solid black;
+}
+
+/*BADIA*/
+#titoloMenu1x{
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+#imgMenu1x{
+    float: left;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+#titoloMenuBadia1{
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+#imgMenuBadia1{
+    float: left;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#titoloMenuBadia2{
+    float: left;
+    margin-left: 8px;
+    margin-top: 19px;
+    font-size: 17px;
+}
+#imgMenuBadia2{
+    float: left;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+#titoloMenuBadia3{
+    float: left;
+    margin-left: 10px;
+    margin-top: 19px;
+    font-size: 17px;
+}
+#imgMenuBadia3{
+    float: left;
+    height: 35px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+#titoloMenuBadia4{
+    float: left;
+    margin-left: 10px;
+    margin-top: 19px;
+    font-size: 16px;
+}
+#imgMenuBadia4{
+    float: left;
+    height: 35px;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+#titoloMenuBadia5{
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 16px;
+}
+#imgMenuBadia5{
+    float: left;
+    height: 35px;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+
+/*Esplora*/
+#titoloMenu2x{
+    float: left;
+    margin-left: 53px;
+    margin-top: 18px;
+}
+#imgMenu2x{
+    float: left;
+    height: 45px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+/* Chiesa*/
+#titoloMenu3x{
+    float: left;
+    margin-left: 45px;
+    margin-top: 18px;
+}
+#imgMenu3x{
+    height: 45px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+/*Letture*/
+#titoloMenu4x{
+    float: left;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+#imgMenu4x{
+    float: left;
+    height: 38px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/*Stanze*/
+#titoloMenu5x{
+    float: left;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+#imgMenu5x{
+    float: left;
+    height: 45px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+/*Impostazioni*/
+.menu6x{
+    margin-top: 0px;
+    background-color: #f6eedd;
+    line-height: 20px;
+    float: left;
+    width: 70px;
+    text-align: center;
+    height: 51px;
+    border: thin solid black;
+}
+#titoloMenu6x{
+    float: left;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+#imgMenu6x{
+    float: left;
+    height:60px;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+/*Exit*/
+#titoloMenu7x{
+    float: left;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+#imgMenu7x{
+    float: left;
+    height: 45px;
+    margin-left: 16px;
+    margin-top: 4px;
+}
+
+
+
+/* RESTO */
+
+.menu{
+    margin-top: 0px;
+    background-color: #f6eedd;
+    line-height: 20px;
+    float: left;
+    width: 20.33%;
+    text-align: center;
+    height: 51px;
+    border: thin solid black;
+}
+
+/*Home*/
+#menuHome{
+    width: 70px;
+}
+#imgMenu1{
+    float: left;
+    height: 38px;
+    margin-left: 18px;
+    margin-top: 7px;
+}
+
+/*Esplora,Aggiungi contenuto*/
+#titoloMenu2{
+    float: left;
+    margin-left: 12px;
+    margin-top: 18px;
+}
+#imgMenu2{
+    float: left;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+#titoloMenu2Add{
+    float: left;
+    margin-left: 70px;
+    margin-top: 18px;
+}
+#imgMenu2Add{
+    float: left;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+/* Chiesa*/
+#titoloMenu3{
+    float: left;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+#imgMenu3{
+    height: 45px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+/*Letture*/
+#titoloMenu4{
+    float: left;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+#imgMenu4{
+    float: left;
+    height: 38px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/*Stanze*/
+#titoloMenu5{
+    float: left;
+    margin-left: 57px;
+    margin-top: 18px;
+}
+#imgMenu5{
+    float: left;
+    height: 45px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+/*Impostazioni*/
+.menu67{
+    margin-top: 0px;
+    background-color: #f6eedd;
+    line-height: 20px;
+    float: left;
+    width: 70px;
+    text-align: center;
+    height: 51px;
+    border: thin solid black;
+}
+#titoloMenu6{
+    float: left;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+#imgMenu6{
+    float: left;
+    height:60px;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+/*Exit*/
+#titoloMenu7{
+    float: left;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+#imgMenu7{
+    float: left;
+    height: 45px;
+    margin-left: 16px;
+    margin-top: 4px;
+}
